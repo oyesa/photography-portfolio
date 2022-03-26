@@ -1,15 +1,31 @@
-.header nav {
 
-}
-.header {
-  text-align: right;
-  display: inline-block;
-  padding: 8px 12px;
+
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(images/orfeas-green-G5A5ZNjS2tE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
   position: relative;
-  list-style: none
+  font-size: 13px;
 }
-.intro {
-position: relative;
-text-align: center;
-color: white;
+
+.nav-logo {
+  border: 3px solid white;
+  border-radius: 5%;
+  color: blueviolet;
+  text-decoration-line: none; 
+  font-size: 20px;
+}
+
+.nav-link{
+  font-size: 17px;
+  color: blueviolet !important;
+  justify-content: space-between;
+}
+
+.nav-link:hover{
+  background: white;
+  border-radius: 3px;
 }
