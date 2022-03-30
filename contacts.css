@@ -29,7 +29,7 @@
 
 /* contact form */
 
-.Contact {
+/* .Contact {
   position: relative;
   min-height: 110vh;
   padding: 50px 100px;
@@ -38,7 +38,7 @@
   align-items: center;
   flex-direction: column;
   background-size: cover;
-}
+} */
 
 .Form {
   position: absolute;
@@ -74,7 +74,6 @@
 .Form textarea {
   resize: none;
   height: 80px;
-  color: black;
 }
 
 .Form .btn input[type="submit"] {
@@ -90,4 +89,13 @@
   font-weight: bold;
   border-radius: 25px;
   cursor: pointer;
+}
+
+/* responsive form */
+
+@media screen and (max-width: 600px) {
+  .Form {
+    position: center;
+    padding: 50px;
+  }
 }
