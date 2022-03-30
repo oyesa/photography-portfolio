@@ -29,6 +29,9 @@
   background: goldenrod;
   border-radius: 3px solid white;
 }
+.navbar-toggler-icon{
+  color: white;
+}
 
 .text-box{
   position: absolute;
